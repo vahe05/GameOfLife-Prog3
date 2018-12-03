@@ -36,7 +36,7 @@
     }
 
     eat() {
-
+        statistics.grassDie++;
         this.multiply++;
         var newCell = random(this.chooseCell(1));
 

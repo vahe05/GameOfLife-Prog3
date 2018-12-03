@@ -34,6 +34,7 @@ class Barbaros extends Base {
     }
 
     eat() {
+        
         this.multiply++;
         var newCell = random(this.chooseCell(2));
 
